@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
   };
   
   function main(param) {
-    if( param.textContent === false && winner === false) {
+    if( param.textContent === '' && winner === false) {
       numb++;
       let id = param.id;
   
