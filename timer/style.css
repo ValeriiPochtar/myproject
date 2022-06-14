@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  margin: 20px;
+  background: linear-gradient(#f69d3c, #3f87a6);
+  background-repeat: no-repeat;
+
+  --height: 100vh;
+  height: 100vh;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+  background-color: rgb(175, 153, 153);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.image-class {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding-right: 40px;
+}
+
+.timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+  padding: calc(var(--height) - 900px);
+  background-color: silver;
+  font-size: 36px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.sides-container {
+  margin-bottom: 20px;
+  background-color: yellowgreen;
+  text-align: center;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: rgba(114, 114, 114, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(134, 133, 133, 0.17) 0px 12px 13px, rgba(153, 151, 151, 0.09) 0px -3px 5px;
+}
+
+.start {
+  width: 250px;
+  height: 70px;
+  background-color: yellow;
+  border-radius: 15px;
+  border: 2px solid salmon;
+}
+
+.times {
+  min-width: 150px;
+  min-height: 100px;
+  max-height: calc(var(--height));
+  background-color: rgba(206, 218, 138, 0.945);
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  font-size: 18px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  box-shadow: rgba(124, 123, 123, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(116, 113, 113, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.times-times {
+  display: flex;
+  flex-direction: column;
+}
+
+.average-times {
+  display: flex;
+  flex-direction: column;
+}
